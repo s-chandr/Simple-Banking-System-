@@ -34,10 +34,10 @@ full_account = ()
 
 
 class Customers:
-    customers = []
+   # customers = []
 
     def __init__(self ,account_number, pin_number, balance):
-        self.customers.append(self)
+        #self.customers.append(self)
         self.account_number = account_number
         self.pin_number = pin_number
         self.balance = balance
